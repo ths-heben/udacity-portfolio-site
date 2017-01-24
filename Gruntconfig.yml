@@ -1,0 +1,4 @@
+scssDir: css/sass/
+cssDir: css/
+imgSrcDir: img/src
+imgOptDir: img/opt

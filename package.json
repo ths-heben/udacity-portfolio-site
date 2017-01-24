@@ -1,0 +1,22 @@
+{
+  "name": "udacity-portfolio",
+  "version": "0.1.0",
+  "author": "Thomas Hebenstreit",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-sass": "^1.2.1",
+    "load-grunt-tasks": "^3.5.2",
+    "grunt-mkdir": "~0.1.2",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-copy": "~0.8.0"
+  },
+  "dependencies": {
+    "grunt-responsive-images": "^0.1.6"
+  }
+}
