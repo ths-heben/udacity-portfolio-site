@@ -1,86 +1,84 @@
 // Colors
-$background: #333333;
-$title: #ffffff;
+$background: #333;
+$title: #fff;
 $subheader: #487f79;
 $design-touch: #9bfff4;
 $shadow: rgba(0,0,0,0.49);
-$floating-text: #ffffff;
-
+$floating-text: #fff;
 $bs-xs-max: 767px;
 $bs-sm-max: 991px;
-
 $space-1: 1em;
 $space-2: 2em;
 $space-3: 5em;
 
 body {
-  font-family: 'Lato', sans-serif;
-  color: $floating-text;
-  background-color: $background;
-  font-weight: 300;
+    font-family: "Lato", sans-serif;
+    color: $floating-text;
+    background-color: $background;
+    font-weight: 300;
 }
 
 hr {
-  border-color: $design-touch;
+    border-color: $design-touch;
 }
 
 .text-muted {
-  color: #bcbbbb;
+    color: #bcbbbb;
 }
 
 .text-thin {
-  font-weight: 100;
+    font-weight: 100;
 }
 
 .title-logo {
-  margin-top: 20px;
-  @media (max-width: $bs-sm-max) {
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
+    margin-top: 20px;
+    @media (max-width: $bs-sm-max) {
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 }
 
 .title-super {
-  font-size: 5em;
-  color: $title;
-  @media (max-width: $bs-sm-max) {
-    text-align: center;
-    font-size: 3em;
-  }
+    font-size: 5em;
+    color: $title;
+    @media (max-width: $bs-sm-max) {
+        text-align: center;
+        font-size: 3em;
+    }
 }
 
 .head-image {
-  margin-bottom: $space-3;
+    margin-bottom: $space-3;
 }
 
 .subheader {
-  color: $subheader;
-  font-weight: bold;
-  @media (max-width: $bs-sm-max) {
-    text-align: center;
-  }
+    color: $subheader;
+    font-weight: bold;
+    @media (max-width: $bs-sm-max) {
+        text-align: center;
+    }
 }
 
 .project-header {
-  font-size: 3em;
-  margin-bottom: 1.5em;
-  @media (max-width: $bs-sm-max) {
-    text-align: center;
-    font-size: 2em;
-    text-transform: uppercase;
-  }
+    font-size: 3em;
+    margin-bottom: 1.5em;
+    @media (max-width: $bs-sm-max) {
+        text-align: center;
+        font-size: 2em;
+        text-transform: uppercase;
+    }
 }
 
 .content-image {
-  -webkit-box-shadow: 2px 3px 12px -1px $shadow;
-  -moz-box-shadow: 2px 3px 12px -1px $shadow;
-  box-shadow: 2px 3px 12px -1px $shadow;
+    -webkit-box-shadow: 2px 3px 12px -1px $shadow;
+    -moz-box-shadow: 2px 3px 12px -1px $shadow;
+    box-shadow: 2px 3px 12px -1px $shadow;
 }
 
 .work-item {
-  @media (max-width: $bs-xs-max) {
-    margin-bottom: $space-3;
-  }
+    @media (max-width: $bs-xs-max) {
+        margin-bottom: $space-3;
+    }
 }

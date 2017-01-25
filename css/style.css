@@ -1,7 +1,7 @@
 body {
-  font-family: 'Lato', sans-serif;
-  color: #ffffff;
-  background-color: #333333;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  background-color: #333;
   font-weight: 300; }
 
 hr {
@@ -24,7 +24,7 @@ hr {
 
 .title-super {
   font-size: 5em;
-  color: #ffffff; }
+  color: #fff; }
   @media (max-width: 991px) {
     .title-super {
       text-align: center;
